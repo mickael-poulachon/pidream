@@ -2,6 +2,11 @@ const { app, BrowserWindow } = require('electron')
 const { ipcMain } = require('electron')
 const url = require("url");
 const path = require("path");
+const usbDetect = require('usb-detection');
+const drivelist = require('drivelist');
+const drives = drivelist.list();
+drives.then(result => console.log(result));
+
 
 let mainWindow
 
@@ -48,3 +53,14 @@ ipcMain.on('ping', (event, arg) => {
   console.log('ici',arg) // affiche "ping"
   event.returnValue = 'pong'
 })
+
+
+usbDetect.startMonitoring();
+
+// Get a list of USB devices on your system, optionally filtered by `vid` or `pid`
+
+// Promise version of `find`:
+//usbDetect.find().then(function(devices) { console.log(devices); }).catch(function(err) { console.log(err); });
+
+// Allow the process to exit
+//usbDetect.stopMonitoring()
