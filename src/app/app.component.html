@@ -2,6 +2,6 @@
 
 <button (click)="playPingPong()"></button>
 
-
+<input #folderInput type="file" webkitdirectory (change)="folderChose(folderInput.files[0].path)" />
 
 <router-outlet></router-outlet>

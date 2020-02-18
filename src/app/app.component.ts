@@ -16,12 +16,16 @@ export class AppComponent {
   public playPingPong() {
     if (this.electronService.isElectronApp) {
       const pong: string = this.electronService.ipcRenderer.sendSync('ping', {test: 'ok'});
-      console.log('front icic',pong);
+      console.log('front icic', pong);
 
       this.electronService.ipcRenderer.on('ping', (event, arg) => {
-        console.log('front la',arg); // affiche "pong"
+        console.log('front la', arg); // affiche "pong"
       });
     }
+  }
+
+  public folderChose(event) {
+    console.log(event);
   }
 }
 
