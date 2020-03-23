@@ -1,0 +1,13 @@
+<div class="conteneur">
+  <div class="carrousel_wrapper">
+    <ul class="carrousel" [style.transform]="transformToPx" style="">
+      <li class="carrousel_item" *ngFor="let element of elements, let i = index"
+          [ngClass]="i == current ? 'current':''">
+        <img src="{{element.image}}"/> <br/>
+      </li>
+    </ul>
+  </div>
+</div>
+<button (click)="navigateTo(20)">previous</button>
+<button (click)="navigateTo(-20)">next</button>
+
