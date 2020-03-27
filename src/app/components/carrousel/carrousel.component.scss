@@ -1,7 +1,8 @@
-.conteneur{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.conteneur {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:calc(100vh - 114px);
 }
 
 .carrousel_wrapper {
@@ -30,13 +31,13 @@
   transition: all 400ms ease-in-out;
   width: 25vw;
   margin-right: -5vw;
-  padding-bottom:60px;
+  padding-bottom: 60px;
 }
 
 .carrousel_item img {
   transform: scale(.75);
-  width:20vw;
-  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(60%, transparent) , to(rgba(250, 250, 250, 0.3)));
+  width: 20vw;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(60%, transparent), to(rgba(250, 250, 250, 0.3)));
   transition: all 400ms ease-in-out;
 }
 

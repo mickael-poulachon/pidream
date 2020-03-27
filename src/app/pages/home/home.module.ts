@@ -4,16 +4,20 @@ import {HomeComponent} from './home.component';
 import {CarrouselComponent} from '../../components/carrousel/carrousel.component';
 import {MenuletterComponent} from '../../components/menuletter/menuletter.component';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
-
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MenutopComponent} from '../../components/menutop/menutop.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     CarrouselComponent,
-    MenuletterComponent],
+    MenuletterComponent,
+    MenutopComponent
+  ],
   imports: [
     CommonModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    MatToolbarModule
   ]
 })
 export class HomeModule {

@@ -1,6 +1,12 @@
-.menu-letter{
+.menu-letter {
   text-align: center;
+
   button {
-    margin:5px;
+    margin: 5px;
+  }
+
+  .mat-button-toggle-checked {
+    background-color: #e91e63;
+    color: #000;
   }
 }
