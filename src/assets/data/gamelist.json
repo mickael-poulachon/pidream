@@ -1,345 +1,547 @@
-{ "data" : [
-  {
-    "letter": "#",
-    "titles": [
-      "102 Dalmatians: Puppies To The Rescue",
-      "18 Wheeler American Pro Tucker",
-      "4 Wheel Thunder",
-      "90 Minutes: Sega Championship Football"
-    ]
-  },
-  {
-    "letter": "A",
-    "titles": [
-      "Aero Wings",
-      "Aero Wings 2: Air Strike",
-      "Alone in the Dark: The New Nightmare",
-      "Army Men: Sarge\\'s Heroes",
-      "Aqua GT"
-    ]
-  },
-  {
-    "letter": "B",
-    "titles": [
-      "Bangai-O",
-      "Blue Stinger",
-      "Buggy Heat",
-      "Bust A Move 4",
-      "Buzz Lightyear of Star Command"
-    ]
-  },
-  {
-    "letter": "C",
-    "titles": [
-      "Caesars Palace 2000",
-      "Cannon Spike",
-      "Capcom vs SNK: Millennium Fight 2000",
-      "Carrier",
-      "Championship Surfer",
-      "Charge \\'N\\' Blast",
-      "Chicken Run",
-      "Chu Chu Rocket!",
-      "Coaster Works",
-      "Confidential Mission",
-      "Conflict Zone",
-      "Crazy Taxi",
-      "Crazy Taxi 2"
-    ]
-  },
-  {
-    "letter": "D",
-    "titles": [
-      "Dave Mirra Freestyle BMX",
-      "Daytona USA 2001",
-      "Dead or Alive 2",
-      "Deadly Skies",
-      "Deep Fighter",
-      "Dino Crisis",
-      "Disney\\'s Dinosaur",
-      "Donald Duck: Quack Attack",
-      "Dragon Riders: Chronicles of Pern",
-      "Dragons Blood",
-      "Ducati World",
-      "Dynamite Cop"
-    ]
-  },
-  {
-    "letter": "E",
-    "titles": [
-      "Ecco the Dolphin: Defender of the Future",
-      "ECW Anarchy Rulz",
-      "ECW Hardcore Revolution",
-      "European Super League",
-      "Evil Dead: Hail to the King",
-      "Evil Twin Cyprien\\'s Chronicles",
-      "Evolution: The World of Sacred Devices",
-      "Evolution 2: Far off Promise",
-      "Exhibition of Speed"
-    ]
-  },
-  {
-    "letter": "F",
-    "titles": [
-      "F1 Racing Championship",
-      "F1 World Grand Prix",
-      "F1 World Grand Prix 2",
-      "F355 Challenge: Passione Rossa",
-      "Fighting Force 2",
-      "Fighting Vipers 2",
-      "Floigan Brothers: episode one",
-      "Freestyle Scooter",
-      "Fur Fighters"
-    ]
-  },
-  {
-    "letter": "G",
-    "titles": [
-      "Gauntlet Legends",
-      "Giant Killers",
-      "Giga Wing",
-      "Grand Theft Auto 2",
-      "Grandia II",
-      "Grinch, The",
-      "Gunbird 2"
-    ]
-  },
-  {
-    "letter": "H",
-    "titles": [
-      "Headhunter",
-      "Heavy Metal Geomatrix",
-      "Hidden and Dangerous",
-      "House of the Dead 2, The",
-      "Hydro Thunder"
-    ]
-  },
-  {
-    "letter": "I",
-    "titles": [
-      "Incoming",
-      "International Track and Field",
-      "Iron Aces"
-    ]
-  },
-  {
-    "letter": "J",
-    "titles": [
-      "Jeremy McGrath Supercross 2000",
-      "Jet Set Radio",
-      "Jimmy White 2: Cueball",
-      "Jojo\\'s Bizarre Adventure"
-    ]
-  },
-  {
-    "letter": "K",
-    "titles": [
-      "Kao the Kangaroo",
-      "Kiss Psycho Circus: The Nightmare Child"
-    ]
-  },
-  {
-    "letter": "L",
-    "titles": [
-      "Le Mans 24 Hours",
-      "Legacy of Kain: Soul Reaver",
-      "Looney Tunes: Space Racing"
-    ]
-  },
-  {
-    "letter": "M",
-    "titles": [
-      "Magforce Racing",
-      "Maken X",
-      "Marvel vs Capcom: Clash of Super Heroes",
-      "Marvel vs Capcom 2: New Age of Heroes",
-      "MDK 2",
-      "Metropolis Street Racer",
-      "Midway\\'s Greatest Hits  - Volume 1 -",
-      "Millennium Soldier: Expendable",
-      "MoHo",
-      "Mortal Kombat Gold",
-      "Mr Driller",
-      "MTV Sports Skateboarding Featuring Andy McDonald"
-    ]
-  },
-  {
-    "letter": "N",
-    "titles": [
-      "NBA 2K",
-      "NBA 2K2",
-      "NBA Hoopz",
-      "NBA Showtime: NBA on NBC",
-      "Next Tetris, The",
-      "NFL Blitz 2000",
-      "NFL Quarterback Club 2000",
-      "NHL 2K",
-      "Nightmare Creatures 2",
-      "Nomad Soul, The"
-    ]
-  },
-  {
-    "letter": "O",
-    "titles": [
-      "Outtrigger"
-    ]
-  },
-  {
-    "letter": "P",
-    "titles": [
-      "Pen Pen Triicelon",
-      "Phantasy Star Online",
-      "Phantasy Star Online Version 2",
-      "Planet Ring (*1)",
-      "Plasma Sword: Nightmare of Bilstein",
-      "POD 2: Multiplayer Online",
-      "Power Stone",
-      "Power Stone 2",
-      "Pro Pinball Trilogy",
-      "Project Justice: Rival Schools 2",
-      "Psychic Force 2012"
-    ]
-  },
-  {
-    "letter": "Q",
-    "titles": [
-      "Quake III Arena"
-    ]
-  },
-  {
-    "letter": "R",
-    "titles": [
-      "Racing Simulator: Monaco Grand Prix",
-      "Racing Simulator 2: Monaco Grand Prix Online",
-      "Railroad Tycoon II",
-      "Rayman 2: The Great Escape",
-      "Ready 2 Rumble Boxing",
-      "Ready 2 Rumble Boxing: Round 2",
-      "Record of Lodoss War",
-      "Red Dog: Superior Firepower",
-      "Resident Evil 2",
-      "Resident Evil 3: Nemesis",
-      "Resident Evil Code: Veronica",
-      "Re-Volt",
-      "Rez",
-      "Roadsters"
-    ]
-  },
-  {
-    "letter": "S",
-    "titles": [
-      "Samba De Amigo",
-      "San Francisco Rush 2049",
-      "Sega Bass Fishing",
-      "Sega Extreme Sports",
-      "Sega GT",
-      "Sega Rally 2",
-      "Sega Swirl (*2)",
-      "Sega Worldwide Soccer 2000",
-      "Sega Worldwide Soccer 2000: Euro Edition",
-      "Shadowman",
-      "Shenmue",
-      "Shenmue 2",
-      "Silent Scope",
-      "Silver",
-      "Skies of Arcadia",
-      "Slave Zero",
-      "Sno Cross: Championship Racing",
-      "Snow Surfers",
-      "Soldier of Fortune",
-      "Sonic Adventure",
-      "Sonic Adventure 2",
-      "Sonic Shuffle",
-      "Soul Calibur",
-      "Soul Fighter",
-      "South Park: Chef\\'s Luv Shack",
-      "South Park Rally",
-      "Space Channel 5",
-      "Spawn in the Demon\\'s Hand",
-      "Spec Ops 2: Omega Squad",
-      "Speed Devils",
-      "Speed Devils Online",
-      "Spiderman",
-      "Spirit of Speed 1937",
-      "Starlancer",
-      "Star Wars: Demolition",
-      "Star Wars: Episode 1 Jedi Power Battles",
-      "Star Wars: Episode 1 Racer",
-      "Street Fighter 3: 3rd Strike",
-      "Street Fighter 3: Double Impact",
-      "Street Fighter Alpha 3",
-      "Stunt GP",
-      "Stupid Invaders",
-      "Super Magnetic Neo",
-      "Super Runabout: The Golden State",
-      "Surf Rocket Racers",
-      "Suzuki Alstare Extreme Racing",
-      "Sword of the Berserk: Gut\\'s Rage",
-      "Sydney 2000"
-    ]
-  },
-  {
-    "letter": "T",
-    "titles": [
-      "Taxi - Le Jeu  (France Only)",
-      "Tech Romancer",
-      "Tee off",
-      "Time Stalkers",
-      "Tokyo Highway Challenge",
-      "Tokyo Highway Challenge 2",
-      "Tom Clancy\\'s Rainbow Six",
-      "Tom Clancy\\'s Rainbow Six Rouge Spear",
-      "Tomb Raider Chronicles",
-      "Tomb Raider: The Last Revelation",
-      "Tony Hawk\\'s Pro Skater 2",
-      "Tony Hawk\\'s Skateboarding",
-      "Toy Commander",
-      "Toy Racer",
-      "Toy Story 2: Buzz Lightyear to the Rescue!",
-      "Trickstyle"
-    ]
-  },
-  {
-    "letter": "U",
-    "titles": [
-      "UEFA Dream Soccer",
-      "UEFA Striker",
-      "Ultimate Fighting Championship",
-      "Unreal Tournament",
-      "Urban Chaos"
-    ]
-  },
-  {
-    "letter": "V",
-    "titles": [
-      "Vanishing Point",
-      "Vigilante 8: 2nd Offense",
-      "Virtua Athlete 2K",
-      "Virtua Fighters 3 Team Battle",
-      "Virtua Striker 2 (ver 2000.1)",
-      "Virtua Tennis",
-      "Virtua Tennis 2",
-      "V-Rally 2 Expert Edition"
-    ]
-  },
-  {
-    "letter": "W",
-    "titles": [
-      "Wacky Racers",
-      "Walt Disney World Quest: Magical Racing Tour",
-      "Wetrix+",
-      "Who Wants To Be A Millionaire?",
-      "Wild Metal",
-      "Worms Armageddon",
-      "Worms World Party",
-      "WWF Attitude",
-      "WWF Royal Rumble"
-    ]
-  },
-  {
-    "letter": "Z",
-    "titles": [
-      "Zombie Revenge"
-    ]
-  }
-]
+{
+  "data": [
+    {
+      "letter": "#",
+      "titles": [
+        "102 Dalmatians: Puppies To The Rescue",
+        "18 Wheeler American Pro Tucker",
+        "4 Wheel Thunder",
+        "4x4 Evolution",
+        "4x4 Jam",
+        "90 Minutes: Sega Championship Football"
+      ]
+    },
+    {
+      "letter": "A",
+      "titles": [
+        "Aero Dancing - Todoroki Taichou no Himitsu Disc",
+        "Aero Dancing F - Todoroki Tsubasa no Hatsu Hikou",
+        "Aero Dancing I - Jikai Saku Made Matemasen",
+        "Aero Dancing I",
+        "Aero Wings 2: Air Strike",
+        "Aero Wings",
+        "Agartha",
+        "Alice Dreams Tournament",
+        "Alien Front Online",
+        "Alone in the Dark: The New Nightmare",
+        "Another World HD",
+        "Aqua GT",
+        "Armada",
+        "Armed 7",
+        "Army Men - Sarge's Heroes",
+        "Atari Anniversary Edition",
+        "Atsumare! Guru Guru Onsen",
+        "Aventures de Buzz L'Eclair"
+      ]
+    },
+    {
+      "letter": "B",
+      "titles": [
+        "BANG! Gunship Elite",
+        "Bakumatsu Roman Dai ni Maku - Gekka no Kenshi - Final Edition",
+        "Bangai-O",
+        "Battletoads",
+        "Blue Shift",
+        "Blue Stinger",
+        "Boku Doraemon",
+        "Bomber Hehhe!",
+        "Bomberman Online",
+        "Border Down",
+        "Buggy Heat",
+        "Bust A Move 4"
+      ]
+    },
+    {
+      "letter": "C",
+      "titles": [
+        "Caesars Palace 2000",
+        "Cannon Spike",
+        "Capcom vs SNK 2 - Millionaire Fighting 2001",
+        "Capcom vs SNK",
+        "Capcom vs SNK: Millennium Fight 2000",
+        "Carrier",
+        "Centipede",
+        "Championship Surfer",
+        "Chaos Field",
+        "Charge 'N' Blast",
+        "Chicken Run",
+        "ChuChu Rocket",
+        "Cleopatra Fortune",
+        "Coaster Works",
+        "Confidential Mission",
+        "Conflict Zone",
+        "Cool Cool Toon",
+        "Cool Herders",
+        "Cosmic Smash",
+        "Crazy Taxi 2",
+        "Crazy Taxi",
+        "Culdcept II",
+        "Cyber Troopers Virtual On - Oratorio Tangram"
+      ]
+    },
+    {
+      "letter": "D",
+      "titles": [
+        "D2",
+        "Dance Dance Revolution - 2nd Mix",
+        "Dance Dance Revolution - Club Version",
+        "Dave Mirra Freestyle BMX",
+        "Daytona USA 2001",
+        "Dead or Alive 2",
+        "Deadly Skies",
+        "Death Crimson 2 - Meranito no Saidan",
+        "Death Crimson OX",
+        "Deep Fighter",
+        "Demolition Racer - No Exit",
+        "Densha de go 2",
+        "Dino Crisis",
+        "Disney's Dinosaur",
+        "Donald - Quack Attack",
+        "Draconus - Cult of the Wyrm",
+        "Dragon Riders - Chronicles Of Pern",
+        "Dream Explorer",
+        "Dreamkey 3.0",
+        "Ducati World",
+        "Dynamite Cop"
+      ]
+    },
+    {
+      "letter": "E",
+      "titles": [
+        "ECW Anarchy Rulz",
+        "ECW Hardcore Revolution",
+        "ESPN International Track & Field",
+        "ESPN NBA 2night",
+        "Ecco II - Sentinels of the Universe",
+        "Ecco the Dolphin",
+        "Elemental Gimmick Gear",
+        "Epitech Collection",
+        "European Super League",
+        "Evil Dead - Hail to the King",
+        "Evil Twin - Cyprien's Chronicles",
+        "Evolution - The World of Sacred Device",
+        "Evolution 2 - Far Off Promise",
+        "Exhibition of Speed"
+      ]
+    },
+    {
+      "letter": "F",
+      "titles": [
+        "F1 Racing Championship",
+        "F1 World Grand Prix II",
+        "F1 World Grand Prix",
+        "F355 Challenge",
+        "FX-Unit Yuki",
+        "Fast Striker",
+        "Fatal Fury - Mark of the Wolves",
+        "Fighting Force 2",
+        "Fighting Vipers 2",
+        "Fish Life Amazon",
+        "Flag to Flag",
+        "FlashBack",
+        "Floigan Bros. - Episode 1",
+        "Freestyle Scooter",
+        "Frogger 2 - Swampys Revenge",
+        "Fur Fighters"
+      ]
+    },
+    {
+      "letter": "G",
+      "titles": [
+        "GET!! Colonies",
+        "GK - Giant Killers",
+        "Gauntlet Legends",
+        "Geist Force",
+        "GigaWing 2",
+        "GigaWing",
+        "Godzilla Generations Maximum Impact",
+        "Godzilla Generations",
+        "Golem no Maigo",
+        "Golf Shiyouyo - Course Data Shuu - Adventure-hen",
+        "Golf Shiyouyo - Kouryaku Pack",
+        "Golf Shiyouyo 2 - Aratanaru Chousen",
+        "Grand Theft Auto 2",
+        "Grandia II",
+        "GrandiaII",
+        "Grinch",
+        "Guilty Gear X",
+        "Gunbird 2",
+        "Gundam - Side Story 0079 - Rise from the Ashes",
+        "Gunman Chronicles"
+      ]
+    },
+    {
+      "letter": "H",
+      "titles": [
+        "Half Life",
+        "Half-Life - Black Ops Mod",
+        "Half-Life - Goldeneye Mod",
+        "Half-Life - Paranoia Mod",
+        "Half-Life - They Hunger Trilogy Mod",
+        "Half-Life Darkstar Mod",
+        "Half-Life Gold",
+        "Headhunter",
+        "Heavy Metal - Geomatrix",
+        "HellGate",
+        "Hello Kitty - Garden Panic",
+        "Hello Kitty - Lovely Fruit Park",
+        "Hello Kitty - Magical Block",
+        "Hello Kitty - Waku Waku Cookies",
+        "Hidden & Dangerous",
+        "Hoyle Casino",
+        "Hydra Castle Labyrinth",
+        "Hydro Thunder (NO VGA)"
+      ]
+    },
+    {
+      "letter": "I",
+      "titles": [
+        "Idol Janshi wo Tsukucchaou",
+        "Ikaruga",
+        "Illbleed",
+        "Incoming",
+        "Industrial Spy - Operation Espionage",
+        "Iron Aces"
+      ]
+    },
+    {
+      "letter": "J",
+      "titles": [
+        "Jeremy McGrath Supercross 2000",
+        "Jet Coaster Dream",
+        "Jet Set Radio",
+        "Jimmy White's 2 - Cueball",
+        "JoJo's Bizarre Adventure"
+      ]
+    },
+    {
+      "letter": "K",
+      "titles": [
+        "KAO the Kangaroo",
+        "KISS Psycho Circus - The Nightmare Child",
+        "Karous",
+        "Kidou Senshi Gundam",
+        "King of Fighters - Dream Match 1999",
+        "King of Fighters 2000",
+        "King of Fighters 2001",
+        "King of Fighters 2002",
+        "King of Fighters 99 Evolution"
+      ]
+    },
+    {
+      "letter": "L",
+      "titles": [
+        "L.O.L. - Lack of Love",
+        "Lake Masters Pro Dreamcast plus!",
+        "Le Mans 24 Hours",
+        "Legacy of Kain - Soul Reaver",
+        "Looney Tunes Space Race"
+      ]
+    },
+    {
+      "letter": "M",
+      "titles": [
+        "MDK 2",
+        "MTV Sports - Skateboarding Featuring Andy Macdonald",
+        "Macross M3",
+        "Magforce Racing",
+        "Magic - The Gathering",
+        "Maken X",
+        "Mars Matrix",
+        "Marvel vs Capcom - Clash of Super Heroes",
+        "Marvel vs Capcom 2 - New Age of Heroes",
+        "Mat Hoffman's Pro BMX",
+        "Max Steel - Covert Missions",
+        "Maximum Pool",
+        "Metropolis Street Racer",
+        "Midway's Greatest Arcade Hits Volume 1",
+        "Midway's Greatest Arcade Hits Volume 2",
+        "Millenium Racer - Y2K Fighters",
+        "Millennium Soldier - Expendable",
+        "Moho",
+        "Monaco Grand Prix Racing Simulation 2",
+        "Morita no Saikyou Reversi",
+        "Mortal Kombat Gold",
+        "Mr Driller",
+        "Ms Pac-Man - Maze Madness",
+        "Musapey's Choco Marker"
+      ]
+    },
+    {
+      "letter": "N",
+      "titles": [
+        "NBA 2K",
+        "NBA 2K1",
+        "NBA 2K2",
+        "NBA Hoopz",
+        "NCAA College Football 2K2 - Road to the Rose Bowl",
+        "NFL 2K",
+        "NFL 2K1",
+        "NFL 2K2",
+        "NFL Blitz 2000",
+        "NFL Quarterback Club 2000",
+        "NFL Quarterback Club 2001",
+        "NHL 2K",
+        "NHL 2K2",
+        "Namco Museum",
+        "Napple Tale - Arsia in Daydream",
+        "Neo Golden Logres",
+        "Neo4All",
+        "Net De Tennis",
+        "Net Versus - Chess",
+        "Nettou Golf",
+        "Next Tetris - Online Edition",
+        "Nightmare Creatures II"
+      ]
+    },
+    {
+      "letter": "O",
+      "titles": [
+        "O-to-i-re - Dreamcast Sequencer",
+        "Ooga Booga",
+        "Opposing Force",
+        "Outtrigger"
+      ]
+    },
+    {
+      "letter": "P",
+      "titles": [
+        "POD 2 - Multiplayer Online",
+        "Panzer Front",
+        "PenPen TriIcelon",
+        "Phantasy Star Online V1",
+        "Phantasy Star Online V2",
+        "Pier Solar HD",
+        "Planet Ring",
+        "Plasma Sword - Nightmare of Bilstein (NO VGA)",
+        "Plus Plumb",
+        "Pop'n Music 2",
+        "Pop'n Music",
+        "Power Jet Racing 2001",
+        "Power Stone 2",
+        "Power Stone",
+        "Prince of Persia - Arabian Nights",
+        "Pro Mahjong Kiwame D",
+        "Pro Pinball - Trilogy",
+        "Project Justice - Rival Schools 2",
+        "Propeller Arena",
+        "Psychic Force 2012",
+        "Psyvariar 2 - The Will to Fabricate",
+        "Puyo Puyo 4",
+        "Puyo Puyo DA!",
+        "Puyo Puyo Fever"
+      ]
+    },
+    {
+      "letter": "Q",
+      "titles": [
+        "Q-bert",
+        "Quake 3 Arena",
+        "Qui veut gagner des millions"
+      ]
+    },
+    {
+      "letter": "R",
+      "titles": [
+        "Racing Simulation 2 - Monaco Grand Prix On-Line",
+        "Radirgy",
+        "Railroad Tycoon II - Gold Edition",
+        "Rainbow Cotton",
+        "Rayman 2 - The Great Escape",
+        "Re-Volt",
+        "Ready 2 Rumble Boxing Round 2",
+        "Ready 2 Rumble Boxing",
+        "Record of Lodoss War",
+        "Red Dog - Superior Firepower",
+        "Reel Fishing - Wild",
+        "Resident Evil 2",
+        "Resident Evil 3",
+        "Resident Evil Code Veronica",
+        "Rez",
+        "Roadsters",
+        "Robo Ninja Climb",
+        "Rush Rally Racing Reloaded",
+        "Rush Rush Rally Racing"
+      ]
+    },
+    {
+      "letter": "S",
+      "titles": [
+        "Samba De Amigo Ver 2000",
+        "Samba De Amigo",
+        "San Francisco Rush 2049",
+        "Seaman",
+        "Sega Bass Fishing 2",
+        "Sega Bass Fishing",
+        "Sega Extreme Sports",
+        "Sega GT",
+        "Sega Marine Fishing",
+        "Sega Rally 2",
+        "Sega Smashpack Volume 1",
+        "Sega Tetris",
+        "Sega Worldwide Soccer 2000 Euro Edition",
+        "Sega Worldwide Soccer 2000",
+        "Seventh Cross Evolution",
+        "Shadow Man",
+        "Shenmue 2",
+        "Shenmue",
+        "Shikigami no Shiro II",
+        "Silent Scope",
+        "Silver",
+        "Skies of Arcadia",
+        "Slave Zero",
+        "SnoCross - Championship Racing",
+        "Snow Surfers",
+        "Soldier of Fortune",
+        "Sonic Adventure 2",
+        "Sonic Adventure",
+        "Sonic Shuffle",
+        "Soul Calibur",
+        "Soul Fighter",
+        "South Park - Chef's Luv Shack",
+        "South Park Rally",
+        "Space Channel 5 Part 2",
+        "Space Channel 5",
+        "Spawn - In the Demon's Hand",
+        "Spec Ops II - Omega Squad",
+        "Speed Devils - Online Racing",
+        "Speed Devils",
+        "Spider-Man",
+        "Spirit of Speed 1937",
+        "Sports Jam",
+        "Star Wars - Demolition",
+        "Star Wars - Episode I - Jedi Power Battles",
+        "Star Wars - Episode I - Racer",
+        "StarLancer",
+        "Street Fighter Alpha 3",
+        "Street Fighter III - 3rd Strike",
+        "Street Fighter III - Double Impact",
+        "Stunt GP",
+        "Stupid Invaders",
+        "Super Magnetic Neo",
+        "Super Puzzle Fighter IIX for Matching Service",
+        "Super Runabout",
+        "Super Street Fighter II X for Matching Service",
+        "Surf Rocket Racers",
+        "Suzuki Alstare Extreme Racing",
+        "Sword of the Berserk - Guts' Rage",
+        "Sydney 2000"
+      ]
+    },
+    {
+      "letter": "T",
+      "titles": [
+        "TDC Final 2",
+        "TMNT - The Hyperstone Heist",
+        "Taisen Net Gimmick - Capcom & Psikyo All Stars",
+        "Taxi 2",
+        "Tech Romancer",
+        "Tee Off",
+        "Test Drive 6",
+        "Tetris 4D",
+        "The Flinstones Viva Rock Vegas",
+        "The House Of The Dead 2",
+        "The Last Blade 2",
+        "The Nomad Soul",
+        "The Ring - Terror's Realm",
+        "The Typing of the Dead",
+        "Thumbs.db",
+        "Time Stalkers",
+        "Toe Jam And Earl 3",
+        "Tokyo Bus Guide",
+        "Tokyo Highway Challenge 2",
+        "Tokyo Highway Challenge",
+        "Tom Clancy's Rainbow Six - Rogue Spear",
+        "Tom Clancy's Rainbow Six",
+        "Tomb Raider - Sur les traces de Lara Croft",
+        "Tomb Raider La Revelation Finale",
+        "Tony Hawk's Pro Skater 2",
+        "Tony Hawk's Skateboarding",
+        "Toy Commander",
+        "Toy Racer",
+        "Toy Story 2 - Buzz l'Eclair a la Rescousse!",
+        "TrickStyle",
+        "Trigger Heart Exelica",
+        "Trizeal"
+      ]
+    },
+    {
+      "letter": "U",
+      "titles": [
+        "UEFA Dream Soccer",
+        "UEFA Striker",
+        "Ultimate Fighting Championship",
+        "Unreal Tournament",
+        "Urban Chaos"
+      ]
+    },
+    {
+      "letter": "T",
+      "titles": [
+        "Twinkle Star Sprites"
+      ]
+    },
+    {
+      "letter": "U",
+      "titles": [
+        "UEFA Dream Soccer",
+        "UEFA Striker",
+        "Ultimate Fighting Championship",
+        "Under Defeat",
+        "Unreal Tournament",
+        "Urban Chaos"
+      ]
+    },
+    {
+      "letter": "V",
+      "titles": [
+        "V-Rally 2 Expert Edition",
+        "Vampire Chronicle for Matching Service",
+        "Vanishing Point",
+        "Vigilante 8 - 2nd Offense",
+        "Virtua Athlete 2K",
+        "Virtua Cop 2",
+        "Virtua Fighter 3tb",
+        "Virtua Striker 2",
+        "Virtua Tennis 2",
+        "Virtua Tennis",
+        "Volgarr the Viking"
+      ]
+    },
+    {
+      "letter": "W",
+      "titles": [
+        "WWF Attitude",
+        "WWF Royal Rumble",
+        "Wacky Races",
+        "Walt Disney World Quest - Magical Racing Tour",
+        "Wetrix+",
+        "Wild Metal",
+        "World Series Baseball 2K1",
+        "World Series Baseball 2K2",
+        "Worms Armageddon",
+        "Worms World Party"
+      ]
+    },
+    {
+      "letter": "X",
+      "titles": [
+        "Xtreme Sports"
+      ]
+    },
+    {
+      "letter": "Y",
+      "titles": [
+        "Yu Suzuki Game Works Vol. 1"
+      ]
+    },
+    {
+      "letter": "Z",
+      "titles": [
+        "Zero Gunner 2",
+        "Zombie Revenge",
+        "Zusar Vasar"
+      ]
+    }
+  ]
 }

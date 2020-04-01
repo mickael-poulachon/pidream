@@ -10,11 +10,17 @@ import {GameslistService} from '../../services/gameslist.service';
 export class MenuletterComponent implements OnInit, OnDestroy {
 
   letters = [];
+  letterSelected = '';
   subscriptionKeyEvent;
+  subscriptionLetterChangeEvent;
+  test;
 
   constructor(private keysEventService: KeysEventService,
               private gamesListService: GameslistService) {
-    this.subscriptionKeyEvent = this.keysEventService.getEvent().subscribe(evt => console.log('push ici ', evt));
+    this.gamesListService.getLetterChangeObservable().subscribe(data => {
+      this.letterSelected = data.letter;
+    });
+
   }
 
   ngOnInit() {
@@ -22,13 +28,17 @@ export class MenuletterComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.subscriptionKeyEvent.unsubscribe();
+
   }
 
   initGameListLetter() {
     this.gamesListService.gamelistPal.data.forEach((gameListByLetter) => {
       this.letters.push(gameListByLetter.letter);
     });
+  }
+
+  emitLetter(letter) {
+    this.gamesListService.getLetterChangeSubject().next({letter, from: 'menuletter'});
   }
 
 }

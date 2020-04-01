@@ -1,5 +1,7 @@
 <div class="mat-app-background basic-container menu-letter">
   <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-    <mat-button-toggle *ngFor="let letter of letters" value="{{letter}}">{{letter}}</mat-button-toggle>
+    <mat-button-toggle *ngFor="let letter of letters" value="{{letter}}"
+                       [ngClass]=" letter == letterSelected ? 'mat-button-toggle-checked':''"
+                       (click)="emitLetter(letter)">{{letter}}</mat-button-toggle>
   </mat-button-toggle-group>
 </div>

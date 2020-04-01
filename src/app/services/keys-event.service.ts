@@ -8,22 +8,25 @@ export class KeysEventService {
 
   globalListenFunc;
   private renderer: Renderer2;
-  private eventSubject = new Subject<any>();
+  private eventKeyPressSubject = new Subject<any>();
 
 
   constructor(private rendererFactory: RendererFactory2) {
-    this.renderer = rendererFactory.createRenderer(null, null);
-    this.eventListener();
+    this.createEventListenerFromRenderer();
   }
 
-  private eventListener() {
+  private createEventListenerFromRenderer() {
+    this.renderer = this.rendererFactory.createRenderer(null, null);
     this.globalListenFunc = this.renderer.listen('document', 'keydown', e => {
-      this.eventSubject.next(e);
-      console.log(e);
+      this.eventKeyPressSubject.next(e);
     });
   }
 
-  getEvent(): Observable<any> {
-    return this.eventSubject.asObservable();
+  getEventKeyPressObservable(): Observable<any> {
+    return this.eventKeyPressSubject.asObservable();
+  }
+
+  public getEventKeyPressSubject() {
+    return this.eventKeyPressSubject;
   }
 }

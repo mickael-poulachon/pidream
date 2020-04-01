@@ -1,5 +1,6 @@
 import {Component, Input, OnDestroy, OnInit} from '@angular/core';
 import {KeysEventService} from '../../services/keys-event.service';
+import {GameslistService} from '../../services/gameslist.service';
 
 @Component({
   selector: 'app-carrousel',
@@ -8,101 +9,90 @@ import {KeysEventService} from '../../services/keys-event.service';
 })
 export class CarrouselComponent implements OnInit, OnDestroy {
 
-  @Input() elements: Array<any> = [];
   transformTo = 0;
   transformToPx;
   current = 2;
+  currentLetter = '';
+  gamesliste = [];
   subscriptionKeyEvent;
+  subscriptionLetterChangeEvent;
 
-  constructor(private keysEventService: KeysEventService) {
-    this.subscriptionKeyEvent = this.keysEventService.getEvent();
+  constructor(private keysEventService: KeysEventService,
+              private gamesListService: GameslistService) {
+    this.subscriptionKeyEvent = this.keysEventService.getEventKeyPressObservable();
     this.subscriptionKeyEvent.subscribe(evt => {
       if (evt.key === 'ArrowLeft') {
-        this.navigateTo(20);
+        this.navigateToFromKey(20);
       }
       if (evt.key === 'ArrowRight') {
-        this.navigateTo(-20);
+        this.navigateToFromKey(-20);
       }
     });
 
+    this.gamesListService.getLetterChangeObservable().subscribe(data => {
 
-    if (!this.elements.length) {
-      this.elements = [
-        {
-          title: 'element 1',
-          image: 'https://cdn.thegamesdb.net/images/original/boxart/front/3657-2.jpg',
-          description: 'lorepm ipsum'
-        }, {
-          title: 'element 1',
-          image: 'https://cdn.thegamesdb.net/images/original/boxart/front/3657-2.jpg',
-          description: 'lorepm ipsum'
-        }, {
-          title: 'element 1',
-          image: 'https://cdn.thegamesdb.net/images/original/boxart/front/3657-2.jpg',
-          description: 'lorepm ipsum'
-        }, {
-          title: 'element 1',
-          image: 'https://cdn.thegamesdb.net/images/original/boxart/front/3657-2.jpg',
-          description: 'lorepm ipsum'
-        }, {
-          title: 'element 1',
-          image: 'https://cdn.thegamesdb.net/images/original/boxart/front/3657-2.jpg',
-          description: 'lorepm ipsum'
-        }, {
-          title: 'element 1',
-          image: 'https://cdn.thegamesdb.net/images/original/boxart/front/3657-2.jpg',
-          description: 'lorepm ipsum'
-        }, {
-          title: 'element 1',
-          image: 'https://cdn.thegamesdb.net/images/original/boxart/front/3657-2.jpg',
-          description: 'lorepm ipsum'
-        }, {
-          title: 'element 1',
-          image: 'https://cdn.thegamesdb.net/images/original/boxart/front/3657-2.jpg',
-          description: 'lorepm ipsum'
-        }, {
-          title: 'element 1',
-          image: 'https://cdn.thegamesdb.net/images/original/boxart/front/3657-2.jpg',
-          description: 'lorepm ipsum'
-        }, {
-          title: 'element 1',
-          image: 'https://cdn.thegamesdb.net/images/original/boxart/front/3657-2.jpg',
-          description: 'lorepm ipsum'
-        }, {
-          title: 'element 1',
-          image: 'https://cdn.thegamesdb.net/images/original/boxart/front/3657-2.jpg',
-          description: 'lorepm ipsum'
-        }, {
-          title: 'element 1',
-          image: 'https://cdn.thegamesdb.net/images/original/boxart/front/3657-2.jpg',
-          description: 'lorepm ipsum'
-        }, {
-          title: 'element 1',
-          image: 'https://cdn.thegamesdb.net/images/original/boxart/front/3657-2.jpg',
-          description: 'lorepm ipsum'
-        }, {
-          title: 'element 1',
-          image: 'https://cdn.thegamesdb.net/images/original/boxart/front/3657-2.jpg',
-          description: 'lorepm ipsum'
-        },
-      ];
-    }
+      if (data.from === 'carrousel') {
+        return;
+      }
+      const index = this.gamesliste.map(e => e.letter).indexOf(data.letter);
+      const value = (this.current >= index) ? (this.current - index) * 20 : (index - this.current) * -20;
+      this.transformTo = this.transformTo + value;
+      this.transformToPx = 'translateX(' + this.transformTo + 'vw)';
+      this.current = index;
+    });
   }
 
   ngOnInit() {
+    this.initGameList();
   }
 
-  navigateTo(value: any) {
-    if (Math.sign(value) === -1) {
+  navigateToFromKey(value: any) {
+    if (Math.sign(value) === -1 && !this.onMaxIndex()) {
       this.current++;
-    } else {
+    } else if (!this.onMinIndex()) {
       this.current--;
     }
-    this.transformTo = this.transformTo + value;
-    this.transformToPx = 'translateX(' + this.transformTo + 'vw)';
+
+    if (this.currentLetter !== this.gamesliste[this.current].letter) {
+      this.currentLetter = this.gamesliste[this.current].letter;
+      this.gamesListService.getLetterChangeSubject().next({
+        letter: this.gamesliste[this.current].letter,
+        from: 'carrousel'
+      });
+    }
+
+    if (this.current > 2 || (this.current == 2 && Math.sign(value) !== -1)) {
+      this.transformTo = this.transformTo + value;
+      this.transformToPx = 'translateX(' + this.transformTo + 'vw)';
+    }
+
+
   }
 
   ngOnDestroy() {
     this.subscriptionKeyEvent.unsubscribe();
+    //this.subscriptionLetterChangeEvent.unsubscribe();
+  }
+
+  initGameList() {
+    this.gamesListService.gamelistPal.data.forEach((gameListByLetter) => {
+      gameListByLetter.titles.forEach((title) => {
+        this.gamesliste.push({
+          letter: gameListByLetter.letter,
+          title: title,
+          image: '/assets/covers/' + title + '.jpg',
+          description: 'lorepm ipsum'
+        });
+      });
+
+    });
+  }
+
+  onMaxIndex() {
+    return this.current === this.gamesliste.length - 1;
+  }
+
+  onMinIndex() {
+    return this.current === 0;
   }
 }
