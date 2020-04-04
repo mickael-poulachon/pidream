@@ -80,7 +80,7 @@ export class CarrouselComponent implements OnInit, OnDestroy {
         this.gamesliste.push({
           letter: gameListByLetter.letter,
           title: title,
-          image: '/assets/covers/' + title + '.jpg',
+          image: 'assets/covers/' + title + '.jpg',
           description: 'lorepm ipsum'
         });
       });

@@ -9,10 +9,11 @@ function createWindow () {
     height: 600,
     backgroundColor: '#ffffff',
     icon: `file://${__dirname}/dist/assets/logo.png`
-  })
+  });
 
+  win.webContents.openDevTools();
 
-  win.loadURL(`file://${__dirname}/dist/index.html`)
+  win.loadURL(`file://${__dirname}/dist/index.html`);
 
   //// uncomment below to open the DevTools.
   // win.webContents.openDevTools()
