@@ -1,0 +1,9 @@
+ <mat-sidenav #sidenav [mode]="'over'" position="end">
+   <div class="video">
+     <video controls (click)="toggleVideo()" #videoPlayer>
+       <source src="{{videoSource}}" type="video/mp4" />
+       Browser not supported
+     </video>
+   </div>
+  </mat-sidenav>
+

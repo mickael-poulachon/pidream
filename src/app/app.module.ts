@@ -6,6 +6,7 @@ import {AppComponent} from './app.component';
 import {ConfigModule} from './pages/config/config.module';
 import {HomeModule} from './pages/home/home.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 
 
@@ -18,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     ConfigModule,
     HomeModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatSidenavModule
   ],
   providers: [],
   exports: [
